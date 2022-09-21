@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Array.ArrayForeachLoop</StartupObject>
+    <StartupObject>Array.ArrayMinTwodia</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayCourse.cs" />
+    <Compile Include="ArrayDepartment.cs" />
+    <Compile Include="ArrayDivide.cs" />
+    <Compile Include="ArrayDuplicateno.cs" />
     <Compile Include="ArrayForeachLoop.cs" />
+    <Compile Include="ArrayJagged.cs" />
+    <Compile Include="ArrayMaxno.cs" />
+    <Compile Include="ArrayMaxRow.cs" />
+    <Compile Include="ArrayMinno.cs" />
+    <Compile Include="ArrayMinTwodia.cs" />
+    <Compile Include="ArrayProduct.cs" />
+    <Compile Include="ArrayRemoveEle.cs" />
     <Compile Include="ArrayString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
