@@ -9,8 +9,25 @@ namespace Array
     internal class ArrayRemoveEle
     {
         static void Main(string[] args)
+
         {
-            int i = 0;
+            int[] arr = new int[] { 23, 12, 67, 89, 34 };
+            int n = Convert.ToInt32(Console.ReadLine());
+            for(int i=0;  i< arr.Length; i++)
+            {
+                if (arr[i] == n)
+                {
+                    arr[i] = 0;
+                    break;
+                }
+            }
+            foreach(var item in arr)
+            {
+                Console.WriteLine(item);    
+            }
+
+                                 //(OR)
+          /*  int i = 0;
             int pos;
             int[] arr = new int[5] { 35, 50, 55, 77, 98 };
 
@@ -31,6 +48,7 @@ namespace Array
                 Console.WriteLine("Element[" + (i + 1) + "]: "+arr[i]);
             }
             Console.WriteLine();
+          */
         }
     }
 }
